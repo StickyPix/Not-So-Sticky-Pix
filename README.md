@@ -4,7 +4,25 @@ StickyPix is a small, rechargeable e-paper picture frame that lets you send
 images from a phone or desktop app over Bluetooth Low Energy. The same product
 family supports a four-gray black-and-white display and a six-color display.
 
-![StickyPix prototype](Images/IMG_1795.jpg)
+## Image gallery
+
+<table>
+  <tr>
+    <td><img src="Images/IMG_1785.jpg" alt="StickyPix prototype photo 1" width="240"></td>
+    <td><img src="Images/IMG_1786.jpg" alt="StickyPix prototype photo 2" width="240"></td>
+    <td><img src="Images/IMG_1787.jpg" alt="StickyPix prototype photo 3" width="240"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/IMG_1790.jpg" alt="StickyPix prototype photo 4" width="240"></td>
+    <td><img src="Images/IMG_1791.jpg" alt="StickyPix prototype photo 5" width="240"></td>
+    <td><img src="Images/IMG_1792.jpg" alt="StickyPix prototype photo 6" width="240"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/IMG_1793.jpg" alt="StickyPix prototype photo 7" width="240"></td>
+    <td><img src="Images/IMG_1794.jpg" alt="StickyPix prototype photo 8" width="240"></td>
+    <td><img src="Images/IMG_1795.jpg" alt="StickyPix prototype photo 9" width="240"></td>
+  </tr>
+</table>
 
 ## What is in this repository?
 
@@ -74,7 +92,13 @@ The enclosure is split into a front bezel, rear shell, inner cardstock/support
 piece, and kickstand. The repository includes both the editable Blender model
 and exported STL files.
 
-![Exploded enclosure render](Flutter%20App/Blender%20Models/NewPieces-exploded-front.png)
+<table>
+  <tr>
+    <td><img src="Flutter%20App/Blender%20Models/NewPieces-background-no-cube.png" alt="StickyPix enclosure render" width="240"></td>
+    <td><img src="Flutter%20App/Blender%20Models/NewPieces-exploded-front.png" alt="StickyPix exploded enclosure render" width="240"></td>
+    <td><img src="Flutter%20App/Blender%20Models/NewPieces-normal-front.png" alt="StickyPix enclosure front render" width="240"></td>
+  </tr>
+</table>
 
 ## Repository layout
 
