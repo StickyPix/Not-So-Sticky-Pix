@@ -1,0 +1,63 @@
+# Stable MCUboot layout for nRF54L15 internal RRAM.
+EMPTY_0:
+  address: 0xd800
+  end_address: 0xe000
+  region: flash_primary
+  size: 0x800
+EMPTY_1:
+  address: 0x164000
+  end_address: 0x165000
+  region: flash_primary
+  size: 0x1000
+app:
+  address: 0xe800
+  end_address: 0xb9000
+  region: flash_primary
+  size: 0xaa800
+bootconf:
+  address: 0xffd080
+  end_address: 0xffd084
+  region: bootconf
+  size: 0x4
+mcuboot:
+  address: 0x0
+  end_address: 0xd800
+  region: flash_primary
+  size: 0xd800
+mcuboot_pad:
+  address: 0xe000
+  end_address: 0xe800
+  region: flash_primary
+  size: 0x800
+mcuboot_primary:
+  address: 0xe000
+  end_address: 0xb9000
+  orig_span: &primary_span
+  - app
+  - mcuboot_pad
+  region: flash_primary
+  size: 0xab000
+  span: *primary_span
+mcuboot_primary_app:
+  address: 0xe800
+  end_address: 0xb9000
+  orig_span: &primary_app_span
+  - app
+  region: flash_primary
+  size: 0xaa800
+  span: *primary_app_span
+mcuboot_secondary:
+  address: 0xb9000
+  end_address: 0x164000
+  region: flash_primary
+  size: 0xab000
+otp:
+  address: 0xffd500
+  end_address: 0xffd9fc
+  region: otp
+  size: 0x4fc
+sram_primary:
+  address: 0x20000000
+  end_address: 0x2002f000
+  region: sram_primary
+  size: 0x2f000

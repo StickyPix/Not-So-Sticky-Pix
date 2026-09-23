@@ -1,0 +1,26 @@
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Nested component-repo metadata is kept locally but not copied into the monorepo.
+**/.git/
+
+# Generated build and dependency output
+**/build/
+**/.dart_tool/
+**/.pub/
+**/.pub-cache/
+**/Pods/
+**/local.properties
+**/*.lck
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pem

@@ -1,0 +1,155 @@
+/ {
+	zephyr,user {
+		epd-gpios = <&gpio1 4 (1 << 9)>, <&gpio1 5 (1 << 9)>, <&gpio1 3 (1 << 9)>;
+		epd-busy-gpios = <&gpio1 2 0>;
+		epd-power-gpios = <&gpio0 4 0>;
+		/delete-property/ batt-gpios;
+		/delete-property/ io-channels;
+	};
+};
+
+&uicr {
+	nfct-pins-as-gpios;
+};
+
+&nfct {
+	status = "disabled";
+};
+
+&mx25r64 {
+	status = "disabled";
+};
+
+&uart21 {
+	status = "disabled";
+	pinctrl-0 = <&uart21_p106_p105>;
+	pinctrl-1 = <&uart21_p106_p105_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&pinctrl {
+	uart21_p106_p105: uart21_p106_p105 {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 1, 6)>;
+		};
+	};
+
+	uart21_p106_p105_sleep: uart21_p106_p105_sleep {
+		group1 {
+			psels = <NRF_PSEL(UART_TX, 1, 6)>;
+			low-power-enable;
+		};
+	};
+
+	spi21_sleep: spi21_sleep {
+		group1 {
+			psels = <NRF_PSEL(SPIM_MOSI, 1, 7)>;
+		};
+	};
+
+	spi20_default: spi20_default {
+
+		group2 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 1)>, <NRF_PSEL(SPIM_MOSI, 0, 0)>;
+			nordic,drive-mode = <NRF_DRIVE_S0H1>;
+		};
+	};
+
+	spi20_sleep: spi20_sleep {
+		group1 {
+			psels = <NRF_PSEL(SPIM_MOSI, 0, 1)>;
+		};
+	};
+};
+
+&spi21 {
+	status = "okay";
+	pinctrl-0 = <&spi21_default>;
+	pinctrl-1 = <&spi21_sleep>;
+	pinctrl-names = "default", "sleep";
+	max-frequency = <DT_FREQ_M(8)>;
+};
+
+&uart30 {
+	status = "disabled";
+};
+
+&adc {
+	#address-cells = <1>;
+    #size-cells = <0>;
+    status = "okay";
+
+    channel@0 {
+        reg = <0>;                        /* SAADC channel ID 0 */
+        zephyr,gain = "ADC_GAIN_1_4";
+        zephyr,reference = "ADC_REF_INTERNAL";
+        zephyr,acquisition-time = <ADC_ACQ_TIME(ADC_ACQ_TIME_MICROSECONDS, 40)>;
+        zephyr,input-positive = <NRF_SAADC_AIN4>;  /* P1.11 */
+        zephyr,resolution = <14>;
+    };
+	/delete-node/ channel@2;
+	/delete-node/ channel@3;
+};
+
+&spi20 {
+	status = "disabled";
+	pinctrl-0 = <&spi20_default>;
+	pinctrl-1 = <&spi20_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&uart20 {
+	status = "disabled";
+};
+
+&spi22 {
+	status = "disabled";
+	max-frequency = <DT_FREQ_M(1)>;
+};
+
+&spi22_default {
+
+	group2 {
+		psels = <NRF_PSEL(SPIM_MOSI, 1, 7)>;
+		nordic,drive-mode = <NRF_DRIVE_H0H1>;
+	};
+
+	group1 {
+		psels = <NRF_PSEL(SPIM_SCK, 1, 6)>;
+		nordic,drive-mode = <NRF_DRIVE_H0H1>;
+	};
+};
+
+&uart22 {
+	status = "disabled";
+};
+/delete-node/ &{/pin-controller/spi22_default/group1/};
+
+&spi30 {
+	status = "okay";
+	max-frequency = <DT_FREQ_M(8)>;
+};
+
+&spi30_default {
+	group2 {
+		psels = <NRF_PSEL(SPIM_MOSI, 0, 1)>;
+		nordic,drive-mode = <NRF_DRIVE_H0S1>;
+	};
+
+	group1 {
+		psels = <NRF_PSEL(SPIM_MISO, 2, 0)>, <NRF_PSEL(SPIM_SCK, 0, 0)>;
+	};
+};
+
+&led2 {
+	gpios = <&gpio2 0 0>;
+};
+/delete-node/ &{/pin-controller/spi21_default/group1/};
+
+&spi21_default {
+
+	group2 {
+		psels = <NRF_PSEL(SPIM_MOSI, 1, 7)>, <NRF_PSEL(SPIM_SCK, 1, 6)>;
+		nordic,drive-mode = <NRF_DRIVE_S0H1>;
+	};
+};

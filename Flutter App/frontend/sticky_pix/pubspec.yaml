@@ -1,0 +1,34 @@
+name: sticky_pix
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  flutter_blue_plus: ^1.33.2
+  image_picker: ^1.1.0
+  image: ^4.1.7
+  thermion_flutter: 0.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/models/device.glb
+    - assets/environment/default_env_ibl.ktx
+
+flutter_launcher_icons:
+  ios: true
+  image_path: "assets/icon/icon.png"

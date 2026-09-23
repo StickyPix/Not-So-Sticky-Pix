@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ27220YZFR
+D ingle cell Pack/System-side CEDV Battery Fuel (Gas) Gauge w/Pre-programmed Chemistry Profiles, BGA-9
+K
+F http://www.ti.com/lit/ds/symlink/bq27220.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BATTERY_HC-1.2-2PWT")(type "KiCad")(uri "${KIPRJMOD}/LIB/BATTERY_HC-1.2-2PWT")(options "")(descr ""))
+  (lib (name "BATTERY_PROTECTION")(type "KiCad")(uri "${KIPRJMOD}/LIB/BATTERY_PROTECTION")(options "")(descr ""))
+  (lib (name "BQ24045DSQR")(type "KiCad")(uri "${KIPRJMOD}/LIB/BQ24045DSQR")(options "")(descr ""))
+  (lib (name "BQ27220YZFR")(type "KiCad")(uri "${KIPRJMOD}/LIB/BQ27220YZFR")(options "")(descr ""))
+  (lib (name "ESD_KUU_ESD5451N")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESD_KUU_ESD5451N")(options "")(descr ""))
+  (lib (name "FH34SRJ_24S_0_5SH_50_")(type "KiCad")(uri "${KIPRJMOD}/LIB/FH34SRJ_24S_0_5SH_50_")(options "")(descr ""))
+  (lib (name "LDO_GR_GR6206P332MR-G")(type "KiCad")(uri "${KIPRJMOD}/LIB/LDO_GR_GR6206P332MR-G")(options "")(descr ""))
+  (lib (name "NRF54L15_QFAA_R")(type "KiCad")(uri "${KIPRJMOD}/LIB/NRF54L15_QFAA_R")(options "")(descr ""))
+  (lib (name "USB_C_SHOU HAN_TYPE-C_6P")(type "KiCad")(uri "${KIPRJMOD}/LIB/USB_C_SHOU HAN_TYPE-C_6P")(options "")(descr ""))
+  (lib (name "RF_0201")(type "KiCad")(uri "${KIPRJMOD}/LIB/RF_0201.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NRF54L15-QFAA-R")(type "KiCad")(uri "${KIPRJMOD}/LIB/NRF54L15_QFAA_R/NRF54L15-QFAA-R.kicad_sym")(options "")(descr ""))
+  (lib (name "LDO_GR_GR6206P332MR-G")(type "KiCad")(uri "${KIPRJMOD}/LIB/LDO_GR_GR6206P332MR-G/LDO_GR_GR6206P332MR-G.kicad_sym")(options "")(descr ""))
+  (lib (name "FH34SRJ-50S-0.5SH_50_")(type "KiCad")(uri "${KIPRJMOD}/LIB/FH34SRJ_50S_0_5SH_50_/FH34SRJ-50S-0.5SH_50_.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD_KUU_ ESD5451N")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESD_KUU_ESD5451N/ESD_KUU_ ESD5451N.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ27220YZFR")(type "KiCad")(uri "${KIPRJMOD}/LIB/BQ27220YZFR/BQ27220YZFR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24045DSQR")(type "KiCad")(uri "${KIPRJMOD}/LIB/BQ24045DSQR/BQ24045DSQR.kicad_sym")(options "")(descr ""))
+  (lib (name "BATTERY_PROTECTION_FH8614G1")(type "KiCad")(uri "${KIPRJMOD}/LIB/BATTERY_PROTECTION/BATTERY_PROTECTION_FH8614G1.kicad_sym")(options "")(descr ""))
+  (lib (name "BSS138LT1G")(type "KiCad")(uri "${KIPRJMOD}/LIB/BSS138LT1G/BSS138LT1G.kicad_sym")(options "")(descr ""))
+  (lib (name "ZD25WQ80C")(type "KiCad")(uri "${KIPRJMOD}/LIB/ZD25WQ80CEIGR /ZD25WQ80C.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,349 @@
+(footprint "BATTERY_HC-1.2-2PWT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J3"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "72d85c11-8d5e-4790-94e1-3e6ceb2b2b3b")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "BATTERY"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fb2eb18-2d3c-45e1-86d8-f06918774bfe")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Footprint" "BATTERY_HC-1.2-2PWT:BATTERY_HC-1.2-2PWT"
+		(at -0.025 -6.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "983a6e38-eafb-47cd-963f-bc9eb047b476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.025 -6.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ae57600-37e0-4585-a90c-c2958bce1563")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.025 -6.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dabdd712-3c1b-4fdb-b0fb-7d3c477cdf6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "JST Sales America Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "870eea02-f25e-4f9b-892c-8af24cc23ccb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "4.8mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "accaf685-c25f-4673-981f-2512858ad23d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26b95352-34c6-4f73-ba0b-ed06b5409618")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03c6d935-74e4-4e75-a53a-5eb7256df7c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "NON STANDARD-2 J.S.T."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78b554c1-206d-4d28-b741-bf533c27b661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1988f52-d44c-490d-af62-a3dd6e311526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a86a202-3e3b-437f-9304-da1da8dc70e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5e056a7-5930-4262-a8c7-f84ffb254c83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "S2B-PH-K-S(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb50d8fa-8095-452e-a9d2-4ea8292d172f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\nConnector Header Through Hole, Right Angle 2 position\n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dd4a06c-07af-462f-8737-ca9673b5dea4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1334521b-31c0-4f1c-ba3e-de974d3adb20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "Unavailable"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c198cd40-0875-4651-b8ac-f8324f0c0a0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "Connector Header Through Hole, Right Angle 2 position"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e8054de-6588-4d3e-9c59-d230081c58cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.159 -2.032)
+		(end -2.159 1.07)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c462f9ce-619a-4f3f-9396-b858ea36e61d")
+	)
+	(fp_line
+		(start -2.032 -2.032)
+		(end -2.159 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5037561f-34d1-40ca-a28d-9fac6ef878f1")
+	)
+	(fp_line
+		(start -1.27 -2.032)
+		(end -2.032 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a9f216fb-4331-4e5f-ae0e-47046f6b9b80")
+	)
+	(fp_line
+		(start -1.16 -2.032)
+		(end -1.27 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1eb5c893-f6bd-4da8-85d0-bfffa758a364")
+	)
+	(fp_line
+		(start -0.97 2.29)
+		(end 1.04 2.29)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82c8d5b1-06e0-4d1d-91d3-929fca2d8fe5")
+	)
+	(fp_line
+		(start 1.17 -2.03)
+		(end 1.27 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4806c729-e20b-4d76-b572-957358dbbecb")
+	)
+	(fp_line
+		(start 1.27 -2.032)
+		(end 2.159 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a9f16cd-3324-472c-8fc6-73dddf3c2007")
+	)
+	(fp_line
+		(start 2.16 0.97)
+		(end 2.159 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f18fa4a9-562c-48f9-bf85-c7a8f49be366")
+	)
+	(pad "1" smd rect
+		(at -0.6 -1.8)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "564e3520-5b0c-4764-ac53-b66d54e746b2")
+	)
+	(pad "2" smd rect
+		(at 0.6 -1.8)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "92df2c59-c5a9-467d-890f-c53c1002fe3a")
+	)
+	(pad "3" smd rect
+		(at 1.7 1.8)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "38fcfe7b-b15a-475c-a968-22a549e23df2")
+	)
+	(pad "4" smd rect
+		(at -1.7 1.8)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fe874790-4897-4f4e-9dd7-fad6a59cd51d")
+	)
+)
